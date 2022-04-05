@@ -12,7 +12,7 @@ public:
 
         for (int i=0; i < size -1; i++) {
 
-            for (int j=1; j < size; i++) {
+            for (int j=i + 1; j < size; j++) {
                 if (nums[i] + nums[j] == target) {
 
                 ret.push_back(i);
